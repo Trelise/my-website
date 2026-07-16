@@ -1,7 +1,202 @@
-body {
-    background-color: black;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+
+
+
+.gallery {
+display: flex;
+gap: 10px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.gallery img {
+width: 307px;
+height: auto;
+object-fit: cover;
+border: 3px solid rgb(206, 178, 109);
+}
+
+.navbar {
+  position: static; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Flamenco';
+  margin-left: 600px;
+}
+
+.header {
+display: flex;
+align-items: center;
+width: 100%;
+padding: 20px 40px;
+justify-content: space-between;
+border-bottom: 3px solid rgb(206, 178, 109);
+background-color: rgb(248, 244, 235);
+}
+
+.site-name {
+margin: 0;
+color: rgb(78, 52, 46);
 }
 
 h1 {
-    color: white;
+font-family: 'Bellefair';
+color: rgb(78, 52, 46);
 }
+
+.nav-links a {
+color: rgb(78, 52, 46);
+
+}
+
+.feature-image {
+width: 100%;
+max-width: 700px;
+position: relative;
+float: right;
+}
+
+.feature-image img {
+width: 100%;
+height: auto;
+margin-right: 10px;
+margin-left: 30px;
+border: 3px solid rgb(206, 178, 109);
+}
+
+.reviews-link {
+font-size: 25px;
+margin-left: 15px;
+text-align: center;
+}
+
+.welcome {
+text-align: center;
+font-size: 28px;
+border-bottom: 2px solid rgb(206, 178, 109);
+display: flex;
+margin-left: 15px;
+padding-bottom: 10px;
+padding-top: 15px;
+padding-left: 50px;
+background-color: rgb(248, 244, 235);
+font-family: 'Bellefair';
+color: #4E342E;
+}
+
+.website-description {
+text-align: center;
+font-size: 23px;
+color: rgb(110, 72, 42);
+font-family: 'Flamenco';
+}
+
+.reviews-heading {
+text-align: center;
+font-size: 28px;
+border-bottom: 2px solid rgb(206, 178, 109);
+display: flex;
+margin-left: 15px;
+padding-bottom: 10px;
+padding-top: 15px;
+padding-left: 150px;
+background-color: rgb(248, 244, 235);
+margin-bottom: 20px;
+font-family: 'Bellefair';
+color: #4E342E;
+}
+
+.reviews-description {
+text-align: center;
+font-size: 23px;
+color: rgb(110, 72, 42);
+font-family: 'Flamenco';
+
+}
+
+.top-picks-heading {
+text-align: center;
+font-size: 28px;
+border-bottom: 2px solid rgb(206, 178, 109);
+display: flex;
+margin-left: 15px;
+padding-bottom: 10px;
+padding-top: 15px;
+padding-left: 150px;
+background-color: rgb(248, 244, 235);
+margin-bottom: 20px;
+margin-top: 15px;
+color: #4E342E;
+font-family: 'Bellefair';
+
+}
+
+.top-picks-description {
+text-align: center;
+font-size: 23px;
+color: rgb(110, 72, 42);
+font-family: 'Flamenco';
+
+}
+
+.featured-review-header {
+text-align:center;
+margin-top: 50px;
+font-size: 40px;
+border-bottom: 2px solid rgb(206, 178, 109);
+background-color: rgb(248, 244, 235);
+font-family: 'Bellefair';
+color:rgb(110, 72, 42);
+}
+
+.featured-review {
+text-align: center;
+margin-top: 15px;
+font-size: 25px;
+}
+
+.featured-review-body {
+text-align: center;
+margin-top: 15px;
+font-size: 20px;
+}
+
+.featured-review-image {
+width: 100%;
+height: auto;
+}
+
+.featured-review-image img {
+width: 100%;
+max-width: 700px;
+margin-left: 250px;
+border: 3px solid rgb(206, 178, 109);
+}
+
+
+
+
+
+
+
+
+
+

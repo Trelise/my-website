@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+
+
+
+.navbar {
+  position: static; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Flamenco';
+  margin-left: 600px;
+}
+
+.header {
+display: flex;
+align-items: center;
+width: 100%;
+padding: 20px 40px;
+justify-content: space-between;
+border-bottom: 3px solid rgb(206, 178, 109);
+background-color: rgb(248, 244, 235);
+}
+
+.site-name {
+margin: 0;
+color: rgb(78, 52, 46);
+}
+
+h1 {
+font-family: 'Bellefair';
+color: rgb(78, 52, 46);
+}
+
+.nav-links a {
+color: rgb(78, 52, 46);
+}
+
+
+.reviews-page-heading {
+text-align: center;
+font-family: 'Bellefair';
+font-size: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch; /* important */
+}
+
+/* tablets */
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* phones */
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;              /* makes all cards equal height */
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Bellefair';
+  font-size: 20px;
+}
